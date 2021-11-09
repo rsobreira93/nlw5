@@ -4,7 +4,7 @@ import { Message } from '../entities/Message';
 import { MessagesRepository } from '../repositories/MessagesRepository';
 
 interface IMessageCreate{
-  admin_id?: string; //Para saber se ele vai preencido ou não
+  admin_id?: string; //Para saber se ele vai preenchido ou não
   text: string;
   user_id: string;
 }
